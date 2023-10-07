@@ -48,4 +48,7 @@ let emp1=new Emp(10,'Vasu',25000,['Javascript','Nodejs'],{
 })
 
 
+
+
 console.log(emp1.getSalary())
+console.log(x)

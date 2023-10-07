@@ -47,10 +47,11 @@ Emp.prototype.getSalary=function(){
 
 
 //2.Create Emp objects
-let emp1=new Emp(10,'Vasu',10000,['Javascript','Nodejs'],{
+let emp1=new  Emp(10,'Vasu',10000,['Javascript','Nodejs'],{
     city:'hyd',
     pincode:333333
 })
 
+
 console.log(emp1)
-console.log(emp1.getSalary())
+//console.log(emp1.getSalary())
