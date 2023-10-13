@@ -32,3 +32,29 @@ console.log(newAr)
 
 //iterate
 ar.forEach((element,index)=>console.log('element at index ',index,' is ',element))
+
+
+
+
+let ar1=[20,100,300,9]
+
+//find sum of elements
+let sum=ar1.reduce((accumulator,element)=>accumulator+element)
+console.log(sum)
+
+
+//find big element
+let small=ar1.reduce((acc,element)=>acc<element?acc:element)
+
+console.log(small)
+
+//find small element
+let big=ar1.reduce((acc,element)=>acc>element?acc:element)
+console.log(big)
+
+//find 10
+let result1= ar1.find(element=>element===100)
+console.log("search result :",result1)
+
+let index=ar1.findIndex(element=>element==9)
+console.log(index)
